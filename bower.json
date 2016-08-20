@@ -1,0 +1,21 @@
+{
+  "name": "GPS-Tracking",
+  "description": "Development demo for GPS-Tracking whith Arduino and SIM808 GPS",
+  "main": "",
+  "authors": [
+    "Leonel Barrera <leodota7@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/NatsuLF/GPS_Tracking",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
