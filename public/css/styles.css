@@ -1,0 +1,29 @@
+
+/* Override Bootstrap */
+.navbar {
+    border-radius: 0px;
+    min-height: 50px;
+}
+
+#carousel-example-generic {
+    padding-top: 0px;
+    margin-top: 51px;
+    margin-right: -15px;
+    margin-left: -15px;
+    height: 92%;
+}
+
+.carousel-inner > .item {
+    padding: 0px;
+    margin: 0px auto 0px auto;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
