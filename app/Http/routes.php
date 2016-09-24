@@ -12,5 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('project', function () {
+    return view('project');
+});
+
+Route::get('gps', function () {
+    return view('gps');
+});
+
+Route::get('staff', function () {
+    return view('staff');
+});
+
+Route::get('contact', function () {
+    return view('contact');
 });

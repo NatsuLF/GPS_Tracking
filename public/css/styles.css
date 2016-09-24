@@ -1,3 +1,27 @@
+body {
+    padding: 0px;
+    margin: 0 auto;
+    padding-top: 55px;
+    background: url('/img/grey_wash_wall.png');
+    background-repeat: repeat repeat-y;
+}
+
+textarea {
+    max-width: 100%;
+    min-height: 150px;
+}
+
+.social {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.staff {
+    padding-top: 10%;
+}
+
+.contact {
+}
 
 /* Override Bootstrap */
 .navbar {
@@ -26,4 +50,20 @@
 
 .carousel-control.right {
     background-image: none;
+}
+
+.well-lg {
+    border-radius: 0px;
+    background: #FFF;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px;
+    background: #FFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse
+.navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav >
+.active > a:hover {
+    background: #909090;
 }
