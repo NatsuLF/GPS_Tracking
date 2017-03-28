@@ -20,14 +20,19 @@ textarea {
     padding-top: 10%;
 }
 
-.contact {
-}
-
 /* Override Bootstrap */
 .navbar {
     border-radius: 0px;
     min-height: 50px;
 }
+
+.thumbnail {
+    border-radius: 0;
+}
+.thumbnail a > img, .thumbnail > img {
+    border-radius: 2px;
+}
+
 
 #carousel-example-generic {
     padding-top: 0px;

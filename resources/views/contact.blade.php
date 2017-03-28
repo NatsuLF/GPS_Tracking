@@ -1,3 +1,4 @@
+
 @extends('layouts.master')
 
 @section('title', 'Contacto')
@@ -12,49 +13,46 @@
     @include('shared.navbar')
 
 @section('content')
-<div class="row">
-  <div class="container-fluid">
-        <div class="jumbotron">
-          <div class="container">
-            <h1>Hello, world!</h1>
-            <p>Contents ...</p>
-            <p>
-              <a class="btn btn-primary btn-lg">Learn more</a>
-            </p>
-          </div>
-        </div>
+<div class="container">
+  <div class="jumbotron">
+    <div class="container">
+      <h2 class="text-center"><strong>UBIMOV - Seguimiento y Monitorización GPS</strong></h2>
+      <p class="text-center">Estamos para servirle si tiene alguna pregunta
+      no dude en contactarnos, con gusto le atenderemos.</p>
+    </div>
   </div>
-    <div class="contact">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <form>
-                      <div class="form-group">
-                        <label for="name">Nombre:</label>
-                        <input type="tetx" class="form-control" id="name">
-                      </div>
-                      <div class="form-group">
-                        <label for="mail">Correo:</label>
-                        <input type="email" class="form-control" id="mail">
-                      </div>
-                      <div class="form-group">
-                          <label for="msj">Mensaje:</label>
-                          <textarea class="form-control" name="msj" id="msj"></textarea>
-                      </div>
-                      <div class="form-group">
-                        <button type="submit" class="btn btn-default">
-                            Enviar
-                            <i class="fa fa-paper-plane-o fa-lg" aria-hidden="true"></i>
-                        </button>
-                      </div>
-                    </form>
-                </div>
-            </div>
+</div>
+
+<div class="col-md-3"></div>
+
+<div class="col-md-6">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="tetx" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="mail">Correo</label>
+                <input type="email" class="form-control" id="mail">
+              </div>
+              <div class="form-group">
+                  <label for="msj">Mensaje</label>
+                  <textarea class="form-control" name="msj" id="msj"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary pull-right">
+                    Enviar
+                    <i class="fa fa-paper-plane-o fa-lg" aria-hidden="true"></i>
+                </button>
+              </div>
+            </form>
         </div>
-        <div class="col-md-3"></div>
     </div>
 </div>
+
+<div class="col-md-3"></div>
 @endsection
 
 @section('javascript')
